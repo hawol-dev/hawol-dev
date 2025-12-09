@@ -1,0 +1,16 @@
+ <svg width="280" height="120" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <rect x="2" y="2" width="276" height="116" rx="12" fill="#0D1117" stroke="#00FF88" stroke-width="2"
+  filter="url(#glow)"/>
+    <text x="20" y="45" fill="#00FF88" font-family="Arial, sans-serif" font-size="24" font-weight="bold">CreFlow</text>
+    <text x="20" y="75" fill="#8B949E" font-family="Arial, sans-serif" font-size="14">크리에이터 수익 관리 대시보드</text>
+    <text x="20" y="100" fill="#58A6FF" font-family="Arial, sans-serif" font-size="12">cre-flow.site →</text>
+  </svg>
